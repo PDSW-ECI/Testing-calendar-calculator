@@ -19,10 +19,7 @@ package edu.eci.pdsw.utils.calendar;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author hcadavid
- */
+
 public class MainProgram {
  
     public static void main(String args[]){

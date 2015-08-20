@@ -6,6 +6,7 @@
 package edu.eci.pdsw.utils.test;
 
 import org.junit.After;
+import static org.junit.Assert.fail;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +14,7 @@ import org.junit.Test;
  * Conjunto de pruebas para XXXXXXXXX
  * 
 
-Estados:
+Estados (http://asciiflow.com/):
 
                  +--------------------+      
 +-+              |                    |      
@@ -39,12 +40,17 @@ Estados:
 
 Clases de equivalencia:
 
-1. Clase A
-2. Clase B
-3. Clase C
+CE1. Clase A
+CE2. Clase B
+CE3. Clase C
 
 Condiciones de frontera a evaluar:
 
+F1.
+F2.
+F3.
+
+ 
 * @author XXXXXXX
 */
 public class TestCalendar {
@@ -63,16 +69,13 @@ public class TestCalendar {
     
     @Test
     /**
-     * @Objetivo
+     * @Objetivo INDICAR QUÉ TRANSICIÓN DE ESTADO, CLASE DE
+     * EQUIVALENCIA, O CONDICIÓN DE FRONTERA SE ESTÁ(N) EVALUANDO.
      */
     public void testAAAA(){
-       // fail("test not implemented yet.");
+        fail("test not implemented yet.");
     }
 
-    @Test
-    public void testBBBB(){
-       // fail("test not implemented yet.");
-    }
 
     
     
